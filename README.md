@@ -28,40 +28,40 @@ Para evidenciar las diferencias, he documentado los pasos principales con captur
 
 Antes de empezar la instalación tenemos que aceptar el acuerdo de condiciones y políticas de privacidad, por lo tanto es recomendable leérselo con el fin de saber que estamos aceptando al utilizar este IDE. Aunque os adelanto que e acuerdo de licencia es sencillo puesto que únicamente requiere aceptar la licencia MIT, con enlaces al proyecto Open Source de Microsoft.
 
-![Imagen 1 VSC](./assets/VSC-1.png)
+![Imagen 1 VSC](./assets/images/VSC-1.png)
 
 Asimismo, la instalación es ligera, rápida y con requisitos mínimos (434 MB). Se instala fácilmente en la carpeta del usuario (`AppData\Local\Programs\Microsoft VS Code`) siempre que no deseemos cambiarla.
 
-![Imagen 2 VSC](./assets/VSC-2.png)
+![Imagen 2 VSC](./assets/images/VSC-2.png)
 
 También nos permite seleccionar tareas adicionales como crear accesos directos y registrar el editor en el PATH, muy útil para desarrolladores.
 
-![Imagen 3 VSC](./assets/VSC-3.png)
+![Imagen 3 VSC](./assets/images/VSC-3.png)
 
 Una vez instalado, en el primer arranque ya podemos apreciar como la interfaz inicial es minimalista y accesible, mostrando directamente las funciones básicas.
 
-![Imagen 4 VSC](./assets/VSC-4.png)
+![Imagen 4 VSC](./assets/images/VSC-4.png)
 
 #### **IntelliJ IDEA (Propietario)**
 
 En este caso el proceso de instalación es más guiado, con recomendaciones iniciales para asegurar una instalación profesional (por ejemplo, cerrar otras aplicaciones).
 
-![Imagen 1 IntelliJ IDEA](./assets/INTELLIJIDEA-1.png
+![Imagen 1 IntelliJ IDEA](./assets/images/INTELLIJIDEA-1.png
 )
 De la misma forma nos pide seleccionar carpeta de instalación en `Program Files`, y requiere mucho más espacio (4.7 GB), lo que indica herramientas integradas y mayor robustez.
 
-![Imagen 2 IntelliJ IDEA](./assets/INTELLIJIDEA-2.png)
+![Imagen 2 IntelliJ IDEA](./assets/images/INTELLIJIDEA-2.png)
 
 Asimismo, permite configurar asociaciones específicas para archivos de programación (.java, .gradle...), orientado a proyectos avanzados.
 
-![Imagen 3 IntelliJ IDEA](./assets/INTELLIJIDEA-3.png)
+![Imagen 3 IntelliJ IDEA](./assets/images/INTELLIJIDEA-3.png)
 Finalmente, la pantalla final es más formal, con opción de iniciar automáticamente el IDE y una bienvenida guiada. Incluso ofrece tutorial onboarding para nuevos usuarios.
 
-![Imagen 4 IntelliJ IDEA](./assets/INTELLIJIDEA-4.png)
+![Imagen 4 IntelliJ IDEA](./assets/images/INTELLIJIDEA-4.png)
 
 Una vez iniciado, la pantalla inicial se ve aún más profesional que la de Visual Studio Code, como se muestra a continuación:
 
-![Imagen 5 IntelliJ IDEA](./assets/INTELLIJIDEA-5.png)
+![Imagen 5 IntelliJ IDEA](./assets/images/INTELLIJIDEA-5.png)
 
 **Conclusión comparativa**
 
