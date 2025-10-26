@@ -24,7 +24,7 @@ Se puede descargar a través del siguiente enlace:
 
 Para evidenciar las diferencias, he documentado los pasos principales con capturas de pantalla para ambos entornos:
 
-#### **Visual Studio Code (Libre)**
+#### **Visual Studio Code**
 
 Antes de empezar la instalación tenemos que aceptar el acuerdo de condiciones y políticas de privacidad, por lo tanto es recomendable leérselo con el fin de saber que estamos aceptando al utilizar este IDE. Aunque os adelanto que e acuerdo de licencia es sencillo puesto que únicamente requiere aceptar la licencia MIT, con enlaces al proyecto Open Source de Microsoft.
 
@@ -42,8 +42,7 @@ Una vez instalado, en el primer arranque ya podemos apreciar como la interfaz in
 
 ![Imagen 4 VSC](./assets/images/VSC-4.png)
 
-#### **IntelliJ IDEA (Propietario)**
-
+#### **IntelliJ IDEA**
 En este caso el proceso de instalación es más guiado, con recomendaciones iniciales para asegurar una instalación profesional (por ejemplo, cerrar otras aplicaciones).
 
 ![Imagen 1 IntelliJ IDEA](./assets/images/INTELLIJIDEA-1.png
@@ -71,7 +70,7 @@ Una vez iniciado, la pantalla inicial se ve aún más profesional que la de Visu
 
 ### ¿Qué ventajas identificaste en cada uno de los entornos durante la instalación?
 
-### **Visual Studio Code (Libre)**
+### **Visual Studio Code**
 
 - **Agilidad del proceso**: Instalación muy rápida y ligera, que requiere pocos recursos y espacio en disco. En menos de un minuto está listo para usar, lo que facilita el acceso incluso en equipos con hardware limitado.
 - **Simplicidad y claridad**: Todo el proceso es intuitivo y directo, sin pasos innecesarios ni requisitos de registro, pago o verificación por licencia.
@@ -79,10 +78,62 @@ Una vez iniciado, la pantalla inicial se ve aún más profesional que la de Visu
 - **Accesibilidad**: No necesita datos personales ni información privada para poder instalarlo puesto que el usuario es totalmente independiente, lo que lo convierte en una solución flexible y segura.
 - **Interfaz minimalista y abierta**: En el primer arranque, la interfaz es clara y moderna, lista para empezar a trabajar o personalizarla con plugins/extensiones según las necesidades del usuario.
 
-### **IntelliJ IDEA (Propietario)**
+### **IntelliJ IDEA**
 
 - **Instalación guiada y profesional**: Desde el inicio, el asistente de instalación ofrece recomendaciones y opciones pensadas para desarrolladores avanzados (como cerrar aplicaciones activas para evitar conflictos). Ya tan solo por esos mínimos detalles el proceso se percibe más profesional y detallado.
 - **Opciones avanzadas de configuración**: Permite elegir asociaciones de tipos de archivo (.java, .gradle...) y añadir utilidades al menú contextual, lo que facilita el trabajo con proyectos de gran escala y diferentes tecnologías.
 - **Robustez y potencia**: El requerimiento de espacio (4.7 GB) anticipa la cantidad de herramientas profesionales ya incluidas, lo que ahorra tiempo en configuraciones posteriores.
 - **Experiencia integral para el usuario**: La pantalla final incluye directamente la opción de iniciar el IDE y realizar un tour guiado, favoreciendo el aprendizaje para nuevos usuarios.
 - **Preparación para desarrollo profesional**: Está pensado para grandes proyectos de ingeniería de software, lo que se nota en la profundidad de sus opciones y el entorno de trabajo altamente especializado.
+
+## Gestión de módulos y extensiones en el entorno de desarrollo
+
+### Visual Studio Code
+
+En Visual Studio Code he decidido instalarme el plugin de Pylint.
+La instalación del plugin **Pylint** ha aportado una mejora radical a mi flujo de trabajo con Python puesto que me ayuda a detectar errores y problemas de estilo en tiempo real, lo que me permite anticipar y corregir fallos antes de ejecutar el código, resultando fundamental para garantizar la calidad, legibilidad y coherencia del proyecto desde el primer momento.
+
+Además, gracias a la gestión intuitiva de extensiones, puedo añadir funcionalidades específicas según las necesidades del proyecto. Por ejemplo, combinando Pylint con otras extensiones como **Prettier** para formatear el código automáticamente, consiguiendo que el desarrollo en Visual Studio Code sea mucho más eficiente y profesional.
+
+*Ejemplo formateo Prettier*
+
+![Ejemplo Prettier](./assets/images/projectB.gif)
+
+En definitiva, **Visual Studio Code destaca por la facilidad y rapidez para instalar cualquier plugin**, permitiendo personalizar el entorno según las necesidades concretas de cada proyecto y perfil de desarrollador.
+
+El proceso de instalación en Visual Studio Code es muy sencillo, puesto que si accedemos al apartado de Extensiones (Plugins) desde la barra lateral nos redirigirá automáticamente al apartado en donde podemos descargarnos las extensiones deseadas, como se muestra a continuación:
+
+![Barra Lateral Extensiones](./assets/images/VSC-barralateral.png) 
+
+Una vez en el apartado de extensiones procedemos a buscar la extensión según nuestros intereses, en este caso he optado por Pylint como se mencióno anterormente.
+
+![Pylint VSC](./assets/images/pylint.png)
+
+*Ejemplo de funcionamiento*
+
+![Ejemplo Pylint](./assets/images/ejemplo_pylint.png)
+
+Como podemos observar, esta extensión nos muestra advertencias y mensajes informativos que aunque no sean errores que corten el flujo del programa es de vital importancia solucionarlos para mayor profesionalidad.
+
+### IntelliJ IDEA
+
+En IntelliJ IDEA he decidido que la mejor extensión que me podía instalar es la que da soporte a Kotlin puesto que más adelante en el curso trabajaremos con este excelente lenguaje de programación sucedáneo del lenguaje orientado a objetos por excelencia Java.
+
+En este caso, para proceder a la instalación de extensiones desde el propio IDE también es muy sencillo puesto que desde la pantalla de inicio en la barra lateral podemos observar una opción que nos redirige directamente al apartado de la instalación de los plugins o extensiones, como se observa a continuación:
+
+![Barra Lateral Plugins](./assets/images/IntelliJ%20IDEA_barralateral.png)
+
+Una vez dentro, buscamos la extensión de nuestra preferencia, en este caso Kotlin, la cual nos aporta un soporte avanzado para el lenguaje, facilitándonos el desarrollo de software.
+
+La instalación del **plugin de Kotlin** transforma IntelliJ IDEA en un entorno robusto y preparado para el desarrollo con este lenguaje. El soporte avanzado incluye autocompletado inteligente, refactorización guiada, integración con sistemas de dependencias y testeo simplificado. Esto facilita el desarrollo de aplicaciones modernas, acortando los tiempos de búsqueda, configuración y resolución de problemas durante la programación.
+
+*Ejemplo integración de Git en IntelliJ IDEA*
+
+![GitToolBox](./assets/images/git-create-repo-dialog.png)
+
+IntelliJ IDEA sobresale, además, por la profundidad y calidad de sus plugins. Por ejemplo, al añadir **GitToolBox** consigo información de control de versiones directamente integrada en el editor, acelerando las tareas de colaboración y gestión de código fuente.
+
+**Comparación final**
+Instalar y utilizar extensiones es sencillo en ambos IDE, pero Visual Studio Code sobresale por la flexibilidad y rapidez para ampliar funcionalidades, mientras que IntelliJ IDEA destaca por la profundidad y calidad de los módulos que incorpora, ideal para proyectos avanzados y exigentes.
+
+## Personalización y automatización del entorno 
