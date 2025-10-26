@@ -116,6 +116,7 @@ Una vez en el apartado de extensiones procedemos a buscar la extensión según n
 Como podemos observar, esta extensión nos muestra advertencias y mensajes informativos que aunque no sean errores que corten el flujo del programa es de vital importancia solucionarlos para mayor profesionalidad.
 
 ### IntelliJ IDEA
+### IntelliJ IDEA
 
 En IntelliJ IDEA he decidido que la mejor extensión que me podía instalar es la que da soporte a Kotlin puesto que más adelante en el curso trabajaremos con este excelente lenguaje de programación sucedáneo del lenguaje orientado a objetos por excelencia Java.
 
@@ -137,3 +138,47 @@ IntelliJ IDEA sobresale, además, por la profundidad y calidad de sus plugins. P
 Instalar y utilizar extensiones es sencillo en ambos IDE, pero Visual Studio Code sobresale por la flexibilidad y rapidez para ampliar funcionalidades, mientras que IntelliJ IDEA destaca por la profundidad y calidad de los módulos que incorpora, ideal para proyectos avanzados y exigentes.
 
 ## Personalización y automatización del entorno 
+
+### Visual Studio Code
+
+Para empezar, con el objetivo de reducir mi fatiga visual durante sesiones largas de trabajo me instalé la extensión One Dark Pro haciéndome más agradable la experiencia y mejorando mi concentración.
+
+*Antes*
+
+![One Dark Pro Antes](./assets/images/antesdarkpro.png)
+
+*Después*
+
+![One Dark Pro Después](./assets/images/onedarkpro.png) 
+
+Seguidamente, he ajustado algunos atajos de teclado desde el propio Visual Studio Code con el fin de facilitar y agilizar el trabajo. 
+
+1. Abrir Terminal `(Ctrl + T)`
+   ![Atajo Teclado Terminal](./assets/images/terminaltoggle.png)
+   ![Ejemplo Terminal](./assets/images/ejemploterminal.png)
+2. Duplicar línea `(Shift + ↓)` 
+    ![Atajo Teclado Copiar Línea Hacia Abajo](./assets/images/copylinedown.png)
+    ![Ejemplo Duplicar Línea](./assets/images/ejemploduplicarlinea.png)
+3. Ver previsualización de un archivo Markdown con la extensión de *Markdown Preview Enhancer* (`Ctrl + Shift + V`)
+    ![Previsualización Markdown](./assets/images/markdownpreview.png)
+    *Imagen de ejemplo*
+    ![Ejemplo Markdown](./assets/images/ejemplomarkdown.png)
+4. Eliminar Línea (`Ctrl + K`)
+   ![Atajo Teclado Eliminar Línea](./assets/images/eliminarlinea.png)
+5. Edición Múltiple (`Ctrl + D`)
+    ![Atajo Teclado Selección Múltiple](./assets/images/seleccionmultiple.png)
+    ![Ejemplo Selección Múltiple](./assets/images/ejemploseleccionmultiple.png)
+6. Buscar en un archivo (`Ctrl + F`)
+    ![Atajo Teclado Buscar en Archivos](./assets/images/buscarenarchivos.png)
+    ![Ejemplo Búsqueda](./assets/images/ejemplobusqueda.png)
+
+Gracias a la personalización avanzada del entorno, especialmente con la configuración de atajos de teclado para acciones críticas (como abrir terminal, duplicar línea, edición múltiple y previsualización Markdown), mi productividad ha mejorado notablemente. Puedo trabajar sin distracciones, minimizando el uso del ratón y automatizando tareas frecuentes. Al adaptar Visual Studio Code a mis necesidades reales de flujo de trabajo, reduzco errores, ahorro tiempo en tareas repetitivas y dedico mi energía a la lógica y creatividad en el desarrollo.
+
+Respecto a la parte de automatización de tareas he configurado con la extensión **Code Runner** la compilación y ejecucción de mi código en cuestón de segundos a través del atajo de teclado (`Shift + Space`) como se muestra a continuación:
+
+![Code Runner](./assets/images/coderunner.png)
+![Ejemplo Code Runner](./assets/images/ejemplocoderunner.png)
+
+Por ejemplo, al implementar una función nueva, fui validando al instante cada modificación con un solo atajo, detectando errores inmediatamente y acelerando el ciclo de prueba y error.
+
+### IntelliJ IDEA
